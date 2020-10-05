@@ -1,0 +1,236 @@
+@font-face{
+    font-family: opensans;
+    src: url(../font/OpenSansCondensed-Light.ttf)
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sect-one{
+    height: 900px;
+    background-color: #000;
+}
+
+#top-img{
+    background-image:url(../img/lady.png) ;
+    background-size: cover;
+    height: 600px;
+}
+
+#top{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+#top-wrapper{
+    background-color: rgb(36, 34, 34);
+    width: 900px;
+    margin-left: 60px;
+    position: relative;
+    top: 50px;
+    height: 70px;
+    padding: 15px;
+    display: flex;
+
+}
+
+#logo{
+    height:50px;
+}
+
+#logo h1{
+    color: white;
+    font-family: opensans;
+}
+
+.menu{
+ margin-left: 220px;
+ width: 500px;
+ margin-top: 10px;
+}
+
+.menu a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: opensans;
+}
+.menu :hover{
+    color: orangered;
+    cursor: pointer;
+}
+#head{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 400px;
+
+}
+#head h1{
+    padding:20px;
+    font-family: opensans;
+    font-size: 45px;
+    color: white;
+}
+.btn{
+    border-radius: 10px;
+    width: 60px;
+    background-color: orangered;
+    color: white;
+    display: none;
+}
+.contain{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    margin-top: 150px;
+}
+
+.box1{
+    height: 320px;
+    width: 290px;
+    background-color: orangered;
+    margin-left: 60px;
+    padding: 20px;
+    position: absolute;
+    bottom: 20%;
+    top: 70%;
+}
+
+.box2{
+    height: 320px;
+    width: 290px;
+    background-color: aqua;
+    margin-left: 20px;
+    padding: 20px;
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    top: 70%;
+
+}
+.box3{
+    height: 320px;
+    width: 290px;
+    background-color: orange;
+    margin-left: 20px;
+    padding: 20px;
+    position: absolute;
+    bottom: 20%;
+    left: 66%;
+    top: 70%;
+}
+
+.box1 h1, p {
+    text-align: center;
+}
+.box2 h1, p {
+    text-align: center;
+}
+.box3 h1, p {
+    text-align: center;
+}
+
+
+@media(max-width:700px){ 
+#top{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+#top-wrapper{
+    background-color: rgb(36, 34, 34);
+    width: 900px;
+    margin-left:30px;
+    position: relative;
+    top: 50px;
+    height: 70px;
+    padding: 15px;
+    display: flex;
+}
+#logo{
+    height:50px;
+    position: absolute;
+}
+
+    .btn{
+        border-radius: 10px;
+        width: 100px;
+        background-color: orangered;
+        color: white;
+        display: block;
+        /* right: 1px; */
+        position: absolute;
+        height: 50px;
+        margin-left: 300px;
+    }
+    .menu{
+        
+        margin-top: 50px;
+        display: none;
+        height: 250px;
+        position: absolute;
+        
+       }
+       .menu a{
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        background-color: black;
+        border: solid;
+        
+    }
+       #head h1{
+        padding:20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 45px;
+        color: white;
+    }
+    .dan{
+        display: block;
+    }
+    #head{
+        width: 500px;
+        height: 200px;
+        /* text-align: center; */
+        margin-top: 300px;
+        margin-left: 30px;
+    
+    }
+    .contain{
+        background-color: black;
+        height: 500px;
+        display: block;
+        margin-top: 100px;
+    }
+    .box1{
+        height: 320px;
+        width: 290px;
+        background-color: orangered;
+        margin-left: 60px;
+        padding: 20px;
+    
+    }
+    .box2{
+        height: 320px;
+        width: 290px;
+        background-color: aqua;
+        margin-left: 20px;
+        padding: 20px;
+    
+    }
+    .box3{
+        height: 320px;
+        width: 290px;
+        background-color: orange;
+        margin-left: 20px;
+        padding: 20px;
+    }
+    
+}
